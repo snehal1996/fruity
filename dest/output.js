@@ -332,34 +332,34 @@ var app = angular.module("myApp", ['ui.router']);
       
       $stateProvider.state('homepage',{
       url:'/homepage',
-      templateUrl:'/templates/home.html',
+      templateUrl:'templates/home.html',
       controller:'appController'
       
   });
       
       $stateProvider.state('search',{
       url:'/search',
-      templateUrl:'/templates/search.html',
+      templateUrl:'templates/search.html',
       controller:'searchController'
       
   });
       
       $stateProvider.state('aboutus',{
       url:'/aboutus',
-      templateUrl:'/templates/aboutus.html',
+      templateUrl:'templates/aboutus.html',
       controller:'aboutController'
       
   });
       
       $stateProvider.state('contactus',{
       url:'/contactus',
-      templateUrl:'/templates/contactus.html',
+      templateUrl:'templates/contactus.html',
       controller:'contactController'
       
   });
       $stateProvider.state('login',{
       url:'/login',
-      templateUrl:'/templates/login.html',
+      templateUrl:'templates/login.html',
       controller:'loginController'
       
   });
