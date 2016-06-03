@@ -1,0 +1,31 @@
+
+<div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+        <form>
+        <input type="text" ng-model="juicename"><br><br>
+  
+        
+        <ul>     
+  <li ng-repeat="juice in juicelist | filter:juicename">
+       <div class="list-group">
+ 
+  <a href="#" class="list-group-item disabled">{{juice.name}}</a>
+  <a href="#" class="list-group-item">{{juice.type}}</a>
+  <a href="#" class="list-group-item">{{juice.content}}</a>
+  <a href="#" class="list-group-item">{{juice.price}}</a>
+
+  <a href="#" class="list-group-item">
+<button class="btn btn-info" onclick="order();">Order</button>
+<button class="btn btn-success" onclick="login();">save</button>
+<button class="btn btn-primary" onclick="login();">Delete</button>
+  </a>
+
+
+</div>
+           
+  </li>
+</ul>
+        </form>
+    </div>
+    
+</div>
